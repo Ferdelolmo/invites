@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>You're Invited – Chiara & Fernando</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://i.imgur.com/5zWPP8m.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: white;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      backdrop-filter: brightness(0.5);
+    }
+    .container {
+      background: rgba(0,0,0,0.5);
+      padding: 2rem;
+      border-radius: 20px;
+      margin: 1rem;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+    }
+    .cta {
+      margin-top: 2rem;
+      display: inline-block;
+      padding: 1rem 2rem;
+      background-color: #ffe28a;
+      color: #000;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Dear {{name}},</h1>
+    <p>{{invitation_text}}</p>
+    <h2>Chiara & Fernando</h2>
+    <p>June 21, 2026 · Ávila, Spain</p>
+    <a href="https://www.chiaraefer.com" class="cta">More Details</a>
+  </div>
+</body>
+</html>
